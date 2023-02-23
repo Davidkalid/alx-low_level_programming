@@ -15,7 +15,8 @@ for (i = 0; i <= n; i++)
 {
 for (j = 0; j <= n; j++)
 _putchar(k + '0');
-} else if (k < 10 && j != 0)
+}
+else if (k < 10 && j != 0)
 {
 k = j * i;
 if (j == 0)
